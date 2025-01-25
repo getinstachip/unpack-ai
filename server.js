@@ -117,3 +117,11 @@ process.on('SIGINT', async () => {
   await client.close();
   process.exit(0);
 });
+
+app.get('/', (req, res) => {
+  res.status(200).json({ message: 'Server is running' });
+});
+
+app.get('/api/health', (req, res) => {
+  res.status(200).json({ status: 'healthy' });
+});
