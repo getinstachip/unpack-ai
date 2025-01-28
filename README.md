@@ -1,4 +1,4 @@
-# Unpack.ai an Upgraded Code Analysis Platform for Security Experts
+# Unpack.ai: An Upgraded Code Analysis Platform for Security Experts
 
 A sophisticated code analysis platform designed specifically for reverse engineers and cybersecurity experts, combining multiple analysis engines with AI-powered insights.
 
